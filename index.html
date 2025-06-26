@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIT Important Dates Page - Interview Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Interview Questionnaire</h1>
+            <p>SAIT Important Dates Page</p>
+        </div>
+
+        <div class="content">
+            <div class="section">               
+                <div class="question">
+                    <div class="question-number">1</div>
+                    <div class="question-text">What kind of student are you? (international/domestic, full-time/part-time student)</div>
+                </div>
+
+                <div class="question">
+                    <div class="question-number">2</div>
+                    <div class="question-text">How often do you visit the SAIT website?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">3</div>
+                    <div class="question-text">3.	Have you ever looked for academic dates or deadlines on the SAIT website “Important Dates” page?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">4</div>
+                    <div class="question-text">What made it difficult?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">5</div>
+                    <div class="question-text">Have you ever missed a deadline because of the page?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">6</div>
+                    <div class="question-text">Did you feel overwhelmed by the page?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">7</div>
+                    <div class="question-text">What was confusing to you?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">8</div>
+                    <div class="question-text">What would your ideal Important Dates page look like?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">9</div>
+                    <div class="question-text">What kind of filters would help you most?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">10</div>
+                    <div class="question-text">Would quick links like “Jump to Fall” help?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">11</div>
+                    <div class="question-text">Would collapsible sections help?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">12</div>
+                    <div class="question-text">What features would help you personally?</div>
+                </div>
+                <div class="question">
+                    <div class="question-number">13</div>
+                    <div class="question-text">How was it on your phone?</div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        // Simple scroll progress indicator
+        window.addEventListener('scroll', () => {
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+
+        // Add smooth scrolling for better user experience
+        document.documentElement.style.scrollBehavior = 'smooth';
+    </script>
+</body>
+</html>
